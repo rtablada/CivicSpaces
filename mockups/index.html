@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap, from Twitter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link rel="stylesheet" href="assets/css/leaugegothic.css">
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				font-family: "League Gothic";
+				padding-top: 60px;
+				padding-bottom: 40px;
+			}
+
+			/* CUSTOMIZE THE CAROUSEL
+			-------------------------------------------------- */
+
+				/* Carousel base class */
+				.carousel {
+					margin-bottom: 60px;
+					min-width: 100%;
+					height: 370px;
+				}
+
+				.carousel .container {
+					position: relative;
+					min-width: 100%;
+					height: 370px;
+					z-index: 9;
+				}
+
+				.carousel .item {
+					position: relative;
+					height: 370px;
+				}
+				.carousel img {
+					position: absolute;
+					top: 0;
+					left: 0;
+					min-width: 100%;
+					height: 370px;
+				}
+
+				.carousel-caption {
+					background-color: transparent;
+					position: static;
+					margin-top: 30px;
+					margin-left: 60px;
+				}
+				.carousel-caption h1,
+				.carousel-caption .lead {
+					font-size: 60px;
+					margin: 0;
+					line-height: 1.25;
+					color: #fff;
+					text-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+				}
+				.actions {
+					position: absolute;
+					bottom: 40px;
+					right: 20px;
+				}
+				.actions .btn {
+					margin-right: 40px;
+				}
+				.about-us {
+					padding-top: 60px;
+					background: #555;
+					color: #ededed;
+				}
+				.about-us h2, h3 {
+					padding-top: 0;
+					margin-top: 0;
+				}
+
+				.about-us h3 {
+					line-height: 30px;
+				}
+
+				.about-us h2 {
+					font-size: 60px;
+					margin-bottom: 20px;
+				}
+		</style>
+		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="../assets/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!-- Fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="../assets/ico/favicon.png">
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" href="#">Project name</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li class="divider"></li>
+									<li class="nav-header">Nav header</li>
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form pull-right">
+							<input class="span2" type="text" placeholder="Email">
+							<input class="span2" type="password" placeholder="Password">
+							<button type="submit" class="btn">Sign in</button>
+						</form>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="myCarousel" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="assets/img/space1.jpg" alt="">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Find a place for your next meetup!</h1>
+							</div>
+							<div class="actions">
+								<a class="btn btn-large btn-primary" href="#">Find A Space</a>
+								<a class="btn btn-large btn-primary" href="#">List A Space</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- /.carousel -->
+		</div>
+
+		<div class="about-us">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h2>Who We Are</h2>
+					</div>
+					<div class="span6">
+						<div class="row">
+							<div class="span1 pull-left">
+								<h2><i class="icon-home"></i></h2>
+							</div>
+							<div class="span5">
+								<h3>
+									We connect non-profits with empty real-estate. Halvah lollipop sugar plum muffin chocolate chocolate cake carrot cake muffin. Chocolate sweet roll toffee carrot cake sugar plum sweet. Dragée oat cake ice cream.
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="span6">
+						<div class="row">
+							<div class="span1 pull-left">
+								<h2><i class="icon-bullhorn"></i></h2>
+							</div>
+							<div class="span5">
+								<h3>
+									Help fill your space and give back to the community. Halvah lollipop sugar plum muffin chocolate chocolate cake carrot cake muffin. Chocolate sweet roll toffee carrot cake sugar plum sweet. Dragée oat cake ice cream.
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	</body>
+</html>
