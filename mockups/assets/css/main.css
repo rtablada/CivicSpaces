@@ -1,11 +1,15 @@
+h1, h2, h3, h4, h5, .nav li, .btn {
+	font-family: "League Gothic";
+	text-transform: uppercase;
+}
+
 body {
 	background: #555;
-	font-family: "League Gothic";
 	padding-bottom: 40px;
 }
 
 .top-banner {
-	padding-top: 60px;
+	padding-top: 40px;
 	background: white;
 }
 
@@ -61,39 +65,39 @@ nav {
 
 /* Carousel base class */
 .carousel {
+	position: relative;
 	margin-bottom: 60px;
 	min-width: 100%;
-	height: 370px;
+	height: 362px;
 	overflow: hidden;
+	width: 960px;
+	margin-left: -10px;
 }
 
 .carousel .container {
-	position: relative;
 	min-width: 100%;
-	height: 370px;
 	z-index: 9;
 }
 
-.carousel .item {
+/*.carousel .item {
 	position: relative;
-	height: 370px;
+	height: 362px;
 }
-.carousel img {
+*/.carousel img {
 	position: absolute;
 	top: 0;
 	left: 0;
 	min-width: 100%;
-	/*height: 370px;*/
 }
 
 .carousel-caption {
 	background-color: transparent;
-	position: static;
+	position: relative;
+	z-index: 3;
 	margin-top: 30px;
 	margin-left: 45px;
 }
-.carousel-caption h1,
-.carousel-caption .lead {
+.carousel-caption h1 {
 	font-size: 60px;
 	margin: 0;
 	line-height: 1.25;
@@ -108,10 +112,16 @@ nav {
 .actions .btn {
 	margin-right: 20px;
 	font-size: 32px;
+	background: #333;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	/*padding-top: 30px;*/
 }
 
 /* About Us Area */
 .about-us {
+	/*margin-top: -200px;*/
 	padding-top: 60px;
 	background: #555;
 	color: #eee;
@@ -126,6 +136,7 @@ nav {
 }
 
 .about-us h2 {
+	text-transform: lowercase;
 	font-size: 60px;
 	margin-bottom: 20px;
 }

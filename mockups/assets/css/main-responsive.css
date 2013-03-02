@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}	
+}
+
+@media (max-width: 979px) {
+	/* .container { width: 724 } */
+	.carousel {
+		height: auto;
+	}
+
+	.carousel img {
+		position: static;
+	}
+
+	.carousel-caption {
+		margin-top: 0;
+	}
+
+	.carousel-caption h1 {
+		color: #555;
+		text-shadow: none;
+	}
+
+	.actions {
+		position: static;
+		margin-left: 20px;
+	}
+
+	.actions .btn {
+		margin-left: 20px;
+		margin-top: 20px;
+		width: 352px;
+	}
+}
