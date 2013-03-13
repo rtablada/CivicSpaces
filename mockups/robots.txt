@@ -1,0 +1,7 @@
+# /robots.txt file for http://chadzilla.com/
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+Disallow: /resume/
